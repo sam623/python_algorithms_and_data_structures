@@ -19,4 +19,4 @@ The following graph demonstrates the rate of the complexity growth as *n* increa
 
 <br />
 
-It is desired to develop algorithms with complexity of *O(1)*, *O(log2 n)* or *O(n)*.
+It is desired to develop algorithms with complexity of *O(1)*, *O(log_2 n)* or *O(n)*.
