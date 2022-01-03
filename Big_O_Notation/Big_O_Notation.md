@@ -9,7 +9,7 @@ Big O notation is a mathematical tool widley used to analyze the time and space 
 </p>
 <br />
 
-The following graph also visually demonstrates the rate of the complexity growth as *n* increases unboundedly.
+The following graph demonstrates the rate of the complexity growth as *n* increases unboundedly.
 
 <br />
 
