@@ -16,3 +16,6 @@ The following graph demonstrates the rate of the complexity growth as *n* increa
 <p align="center">
   <img src="https://github.com/sam623/python_algorithms_and_data_structures/blob/main/Big_O_Notation/Images/Big_O_functions_plots.png"/>
 </p>
+
+<br />
+It is desired to develop alforithms with xomplexity of *O(1)*, *O(log2 n)*, and *O(n)*.
