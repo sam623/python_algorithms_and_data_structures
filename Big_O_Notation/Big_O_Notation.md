@@ -18,4 +18,4 @@ The following graph demonstrates the rate of the complexity growth as *n* increa
 </p>
 
 <br />
-It is desired to develop alforithms with xomplexity of *O(1)*, *O(log2 n)*, and *O(n)*.
+It is desired to develop algorithms with complexity of *O(1)*, *O(log2 n)* or *O(n)*.
