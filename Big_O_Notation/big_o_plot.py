@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-n = np.arange(0, 100., 1)
+n = np.arange(0, 100, 1)
 log_n = np.log2(n)
 
 
