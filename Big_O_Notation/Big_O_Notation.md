@@ -5,10 +5,14 @@ Big O notation is a mathematical tool widley used to analyze the time and space 
 <br />
 
 <p align="center">
-  <img src="https://github.com/sam623/python_algorithms_and_data_structures/blob/main/Big_O_Notation/Images/Big_O_functions.png" />
+  <img src="https://github.com/sam623/python_algorithms_and_data_structures/blob/main/Big_O_Notation/Images/Big_O_functions.png"/>
 </p>
 <br />
 
 The following graph also visually demonstrates the rate of the complexity growth as *n* increases unboundedly.
 
+<br />
 
+<p align="center">
+  <img src="https://github.com/sam623/python_algorithms_and_data_structures/blob/main/Big_O_Notation/Images/Big_O_functions_plots.png"/>
+</p>
