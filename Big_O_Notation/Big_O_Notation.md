@@ -1,7 +1,6 @@
 # Big O Notation
 
-Big O notation is a mathematical tool widley used to analyze the time and space complexity of algorithms. Below is the list of functions commonly used to classify this complexity.
-
+Big O notation is a mathematical tool widely used to analyze the time and space complexity of algorithms. Below is the list of functions commonly used to classify this complexity.
 <br />
 
 <p align="center">
@@ -9,8 +8,7 @@ Big O notation is a mathematical tool widley used to analyze the time and space 
 </p>
 <br />
 
-The following graph demonstrates the rate of the complexity growth as *n* increases unboundedly.
-
+The following graph demonstrates the rate of complexity growth as *n* increases unboundedly.
 <br />
 
 <p align="center">
@@ -19,4 +17,4 @@ The following graph demonstrates the rate of the complexity growth as *n* increa
 
 <br />
 
-It is desired to develop algorithms with complexity of *O(1)*, *O(log_2 n)* or *O(n)*.
+It is desired to develop algorithms with a complexity of *O(1)*, *O(log_2 n)*, or *O(n)*.
