@@ -47,7 +47,8 @@ class LinkedList:
             self.tail.next = None
             self.length -= 1    
         return self.tail.data
-    
+
+# Prepend to the beginning of the Linked List
     def prepend(self,data):
         new_node = Node(data)
         if self.length == 0:
@@ -58,6 +59,8 @@ class LinkedList:
             self.head = new_node
         self.length += self.length
         return True
+    
+# Pop from the beginning of the Linked List
     def pop_first(self):
         if self.head.next is None:
             self.head = None
@@ -68,4 +71,21 @@ class LinkedList:
             self.head = temp.next
             temp.next = None
             self.length -+ self.length
-        return True 
+        return True  
+         
+# Get the node at index location of the Linked List     
+    def get(self,index):
+        if index < 0 or index >= self.length:
+            return None
+        temp = self.head
+        for _ in range(index):
+            temp = temp.next
+        return temp
+
+# set the node at index location of the Linked List
+    def set(self, index, data):
+        temp = self.get(index)
+        if temp:
+            temp.data = data
+            return True
+        return False
