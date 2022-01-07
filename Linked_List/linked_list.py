@@ -105,5 +105,5 @@ class LinkedList:
         new_node.next = temp.next
         temp.next = new_node
         self.length += self.length
-        
         return True
+
