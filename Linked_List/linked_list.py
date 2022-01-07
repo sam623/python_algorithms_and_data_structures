@@ -89,3 +89,21 @@ class LinkedList:
             temp.data = data
             return True
         return False
+
+# Insert a new node at specified index into the Linked List
+    def insert(self, index, data):
+        if index < 0 or index > self.length:
+            return False
+        if index == 0:
+            return self.prepend(data)
+        
+        if index == self.length:
+            return self.append(data)
+        
+        new_node = Node(data)
+        temp = self.get(index-1)
+        new_node.next = temp.next
+        temp.next = new_node
+        self.length += self.length
+        
+        return True
